@@ -69,7 +69,7 @@ resource "yandex_compute_instance" "kube_node" {
   }
 
   metadata = {
-    ssh-keys = "cloud-user:${file("~/.ssh/id_ed25519_yandex.pub")}"
+    ssh-keys = "AAAAB3NzaC1yc2EAAAADAQABAAABgQCypB08FX77oLEARFamdKtLKP2g3VPImzsWX43juZSKwcWv4kxctZxvLMvlZ0JM/SFETeN3uvxwnscR3Mf+FkneK5UYAfAn/95cHYse8UJlkjpE8kpe8jIT6rx3zpf5X7yhoxh79wUpePhvoulmG9Ao2Y5z9zeK4gtRrtIOOWsMjn4JbCR5h0AVenHAR7tID9KhahCMUTKN7oYKE1Brm5i30SuGHB2tzJN0e+FpayzE77sOn5VyttgKGyT9YDbFYvoixZ1MXhF908+KzR643HFb69r10rNehxCWJ6mYbDb+O8o1CgijH+YSi0JJ6/gLIuXHJ7fEU32pODm5+8k/EZ5RLFCnOv4H6gjuG8Fd4h4XyHGYX95egG7R2/RzEp4Q+ip2zj3XquzBZ4E0aFaRvSJclTtf994bWR4SY1otyh1OncGIrcScqIgVaZ9AT/6Cka7diLSl5LVRrCRBdk/WvchPyI3taO6eX2g4m+uQbFeyXjFlZAui5reuxUSESU31pm0= vagrant@minicub"
   }
 }
 
