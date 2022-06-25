@@ -2,14 +2,12 @@
 
 Все действия будут производиться на домашней машине.
 
-Для начала подготовим системные переменные для Yandex Cloud и Gitlab:
+Для начала подготовим системные переменные для Yandex Cloud:
 
 ```bash
 $ export YC_STORAGE_ACCESS_KEY="XXXXXXXXXXXXXX-XXXXXXXXXX"
 $ export YC_STORAGE_SECRET_KEY="XXXXX-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 $ export YC_SERVICE_ACCOUNT_KEY_FILE="/home/vagrant/.yckey.json"
-$ export GITLAB_PRIVATE_TOKEN="xxxxx-XXXXXXXXXXXXXXXXXXXX"
-$ export GITLAB_AGENT_TOKEN="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 ```
 >1.Создайте сервисный аккаунт, который будет в дальнейшем использоваться Terraform для работы с инфраструктурой с необходимыми и достаточными правами. Не стоит использовать права суперпользователя
 ```bash
