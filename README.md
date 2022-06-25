@@ -6,7 +6,7 @@ This project contain infrastructure part:
 - k8s addons (dashboard, kube-prometheus) installation (ansible)
 - ci/cd pipeline for all these deployments, and triggering testapp deployment as well
 
-(Resources for test application are in separate [project](https://github.com/Prividen/diploma-testapp))
+(Resources for test application are in separate [project](https://github.com/Jekker600/diplom-testapp))
 
 
 ## Cloud resources
